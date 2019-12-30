@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+/*#b{
+    position:absolute;
+    left:250px;
+    top:9px;
+}
+#c{
+    position:absolute;
+    left:500px;
+    top:9px;
+}
+#d{
+    position:absolute;
+    left:750px;
+    top:9px;
+}
+  
+ */
+#b,#c,#d,#a{
+ 
+ display: inline-block;
+
+}
+#sb{
+        width:180px;
+        height: 180px;
+        border-radius: 50px;
+        box-shadow: 5px 5px white,
+                4px 4px white, 
+                3px 3px white, 
+                2px 2px white, 
+                1px 1px white,
+                5px 5px 5px black;
+    border:1px solid white;
+}
+.img_class{
+     width: 200px;
+     height: 200px;
+}
+
+
+</style>
+</head>
+<body>
+ 
+<div >
+<center>
+<br><br>
+<div  id = "a" style="background-color:red;width:200px;height:200px;border-style:solid;border-width:10px;border-radius: 50px"></div>
+<div id = "b" style="background-color:red;width:200px;height:200px;border-style:solid;border-width:10px;border-radius: 50px"></div>
+<div id = "c" style="background-color:red;width:200px;height:200px;border-style:solid;border-width:10px;border-radius: 50px"></div>
+<div id = "d" style="background-color:red;width:200px;height:200px;border-style:solid;border-width:10px;border-radius: 50px"></div>
+</center>
+
+<center>
+    <br><br><br><br>
+    <img src="submit.png" id="sb" onclick="randomDriver()">
+
+
+</center>
+</div>
+
+ 
+</body>
+</html>
+ 
+<script>
+ 
+var x = ['a','b','c','d'];
+var colos = ['green','red','pink','cyan','orange','violet','yellow','white'];
+var images = ['black.jpg','cap.jpg','hulk.jpg','iron.jpg','thor.jpg','pant.jpg'];
+var l;
+var i;
+ 
+ 
+ 
+ 
+function randomize()
+{
+   
+    for(i=0;i<4;i++)
+    {   l = Math.floor(Math.random() * 8); 
+        document.getElementById(x[i]).style.backgroundColor = colos[l];
+       document.getElementById(x[l]).style.backgroundImage = "none";
+       
+    }
+   
+   
+   
+}
+ 
+var timing;
+ 
+function randomDriver()
+{
+        timing  = setInterval(function(){ randomize() }, 100);
+        setTimeout(function(){  clearInterval(timing);
+       l = Math.floor(Math.random() * 6);
+        k = Math.floor(Math.random() * 4); 
+        var p = "url('" + images[l] + "')";
+        document.getElementById(x[k]).style.backgroundImage = p;
+        document.getElementById(x[k]).className = "img_class";
+            for(i=0;i<4;i++)
+    {      
+        document.getElementById(x[i]).style.backgroundColor = "red";
+   
+       
+    }
+       
+        }, 2500);
+       
+}
+ 
+ 
+ 
+ 
+</script>

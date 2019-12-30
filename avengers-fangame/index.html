@@ -1,0 +1,142 @@
+<html>
+<head>
+  <title>Avengers FanGame</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<style>
+
+html, body { 
+    background: url(AVENGERS.jpg) no-repeat center center fixed #000; 
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+div {
+    width: 300px;
+    height: 300px;
+   
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+button {
+ 	border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 8px;
+    padding: 8px;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+input {
+
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    height: 32px;
+    text-align: center;
+    font-size: 26px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+p {
+	color: white;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#transbox {
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 80%;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid
+}
+
+</style>
+
+<body>
+	<div align="center" id="transbox">
+	<p style="font-size:35px"> Avengers Assemble</p>
+	<input type="text" id="gname">
+	<br>
+	<br>
+      <button type="button" onclick="decide()" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Join The Avengers!
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal" >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" style="width:300px">
+          <h5 class="modal-title" style="font-family: 'Audiowide', cursive; display:absolute">Your Fav Superhero Is....</h5>
+       </div> <br>
+        
+        <!-- Modal body -->
+      <center><div class="modal-body" id="hero" style="font-family: 'Audiowide', cursive; display:absolute;top:20%;font-size:30px">
+	  </div></center>
+        <br>
+		<br>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+		
+         <center> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></center>
+        </div>
+        
+      </div>
+    </div>
+
+  
+</div>
+
+
+	
+	
+	
+		<p style="font-size: 30px;">Enter Your Name Because</p>
+    <p style="font-size: 25px;">Nick &nbsp Fury &nbsp Needs &nbsp Your &nbsp Help!</p> 
+    <img src="nick.gif" alt="Nick Fury" style="border-radius: 50%; height: 150px">
+
+	</div>
+<div id="transbox" style="display:absolute;top:60%;">
+<center><p style="font-size:35px"> You Will Be Accompanied By</p></center>
+<iframe src="random.html" style="width:100%;height:90%">
+
+
+</div>	
+<div>	
+  <audio autoplay src="avengers_new.mp3">
+      Your browser does not support the
+      <code>audio</code> element.
+  </audio>
+</div>
+</body>
+</html>
+
