@@ -10,7 +10,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #4834DF;
 }
 
 .topnav a {
@@ -24,12 +24,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #67E6DC;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #0ABDE3;
   color: white;
 }
 
@@ -72,6 +72,7 @@ body {
   </a>
 </div>
 <div>
+  <br>
   <h1>𝓜𝔂 𝓟𝓮𝓻𝓼𝓸𝓷𝓪𝓵 𝓟𝓸𝓻𝓽𝓯𝓸𝓵𝓲𝓸 𝓦𝓮𝓫𝓼𝓲𝓽𝓮</h1>
 
 <h2>PROJECTS I HAVE WORKED UPON : </h2>
