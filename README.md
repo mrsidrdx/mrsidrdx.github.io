@@ -64,9 +64,10 @@ body {
 
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
   <a href="#about">About</a>
+  <a href="https://github.com/mrsidrdx/mrsidrdx.github.io" target="_blank">Fork This!</a>
+  <a href="#linkedin">LinkedIn</a>
+  <a href="#instagram">Instagram</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
