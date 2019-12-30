@@ -79,5 +79,15 @@ body {
 ⦿ Avengers FanGame : It is a game made with love for Avengers Fans. In this our website will tell you your favourite SuperHero based on your name input. And it will also provide you SuperHero Teammate randomly to fight with you.
 Go To <a href="https://cutt.ly/avengers-fangame" target="_blank">Avengers FanGame</a> And Enjoy Your Game 👍
 </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
