@@ -10,7 +10,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #4834DF;
+  background-color: #3498DB;
 }
 
 .topnav a {
