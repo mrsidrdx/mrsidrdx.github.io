@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="game.css">
+
+  </head>
+  <body>
+    <div class="container" align='center'>
+      <h1>Welcome to Connect Four!</h1>
+      <h2>Connect 4 Dots First And Win The Game!</h2>
+      <h3>Click Button To Start The Game!</h3>
+      <div id="refresh"></div>
+      <!-- Button to Open the Modal -->
+  <button id="b" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Let's Begin
+  </button><br><br>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Enter Player Names</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div id="blank"></div>
+          <form class="form-group">
+            <label for="player1"><h5>Player 1</h5></label>
+            <input class="form-control" id="player1" type="text" required><br>
+            <label for="player2"><h5>Player 2</h5></label>
+            <input class="form-control" id="player2" type="text" required>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button id="submit-button" type="button" class="btn btn-outline-success">Set</button>
+          <button id="close-button" type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+        <table class="board">
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+    </table>
+
+    <br>
+    <footer>
+      <span>
+        Made with <span id="icon-love" class="">❤️</span> by <a href="#" target="_blank"><em>Siddhartha Satyakama</em></a>
+      </span>
+    </footer><br>
+    </div>
+
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+    </script>
+    <script src='main.js'>
+
+    </script>
+  </body>
+</html>
