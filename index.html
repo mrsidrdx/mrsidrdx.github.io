@@ -1,6 +1,11 @@
 <html>
 <head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
@@ -35,6 +40,36 @@ body {
 
 .topnav .icon {
   display: none;
+}
+
+span a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* unvisited link */
+span a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* visited link */
+span a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* mouse over link */
+span a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* selected link */
+span a:active {
+  color: #000000;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -74,12 +109,34 @@ body {
 </div>
 <div>
   <br>
-  <h1>𝓜𝔂 𝓟𝓮𝓻𝓼𝓸𝓷𝓪𝓵 𝓟𝓸𝓻𝓽𝓯𝓸𝓵𝓲𝓸 𝓦𝓮𝓫𝓼𝓲𝓽𝓮</h1>
-
-<h2>PROJECTS I HAVE WORKED UPON : </h2>
-<br>
-⦿ <strong>Avengers FanGame</strong> : It is a game made with love for Avengers Fans. In this our website will tell you your favourite SuperHero based on your name input. And it will also provide you SuperHero Teammate randomly to fight with you.
-Go To <a href="https://cutt.ly/avengers-fangame" target="_blank">Avengers FanGame</a> And Enjoy Your Game 👍
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-5">𝓜𝔂 𝓟𝓮𝓻𝓼𝓸𝓷𝓪𝓵 𝓟𝓸𝓻𝓽𝓯𝓸𝓵𝓲𝓸 𝓦𝓮𝓫𝓼𝓲𝓽𝓮</h1>
+    <p class="lead">This is my portfolio website in which all the projects I worked upon is listed. Have a look at them and do contribute to help me make things better.</p>
+    <hr class="my-4">
+  <p>Follow me on GitHub and fork my repositories!</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="https://github.com/mrsidrdx" role="button">Follow Me</a>
+  </p>
+  </div>
+</div>
+<div class="container" align="center">
+  <h2><u>List Of Projects I Have Worked Upon :</u></h2><br>
+  <p>
+    ⦿ <strong>Avengers FanGame</strong> : It is a game made with love for Avengers Fans. In this our website will tell you your favourite SuperHero based on your name input. And it will also provide you SuperHero Teammate randomly to fight with you.
+    Go To <a href="https://cutt.ly/avengers-fangame" target="_blank">Avengers FanGame</a> And Enjoy Your Game 👍
+  </p>
+  <p>
+    ⦿ <strong>Connect Four Game</strong> : It is a simple game made using jquery library. In this game there is 6 X 7 Dot Board. There will be 2 players playing this game one with green dot other with purple dot. The one who completes the 4 dots in a row horizontally, vertically or diagonally will win the game.
+    Go To <a href="https://cutt.ly/connect-four" target="_blank">Connect 4 Game</a> And Enjoy Your Game 👍
+  </p>
+  <br>
+    <footer>
+      <span>
+        Made with <span id="icon-love" class="">❤️</span> by <a href="https://github.com/mrsidrdx" target="_blank"><em>Siddhartha Satyakama</em></a>
+      </span>
+    </footer><br>
+</div>
 </div>
 <script>
 function myFunction() {
