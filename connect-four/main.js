@@ -111,7 +111,7 @@ function gameEnd(winningPlayer) {
       game_on = false;
     }
   }
-  var r= $('<br><a href="index.html"><button type="button" class="btn btn-primary btn-lg">Play Again!</button></a>');
+  var r= $('<br><a href=""><button type="button" class="btn btn-primary btn-lg">Play Again!</button></a>');
   $("#refresh").append(r);
 }
 
