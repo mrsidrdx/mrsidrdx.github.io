@@ -12,7 +12,7 @@ $('#submit-button').on('click', function() {
     $('#blank').text("Don't Leave Player Names Blank. Please Set Some Real Names!\n\n");
   }
   else {
-    $('#blank').text("");
+    $('#blank').text("Players Names Set, Now Close And Start Playing!\n\n");
   }
 });
 
