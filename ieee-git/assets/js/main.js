@@ -1,8 +1,10 @@
 var btn = $('#backTop');
 
 $(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
-     $(' html, body').css({overflow: 'auto'});
+    setTimeout(function() {
+      $(".loader-wrapper").fadeOut("slow");
+      $(' html, body').css({overflow: 'auto'});
+    }, 2800);
 });
 
 $(window).scroll(function() {
