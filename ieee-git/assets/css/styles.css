@@ -340,6 +340,10 @@ main {
 
 	}
 
+  .card-link {
+    color: white;
+  }
+
   .footer-color{
   	background: #3e4551;
     color: white;
