@@ -4,7 +4,7 @@ $(window).on("load",function(){
     setTimeout(function() {
       $(".loader-wrapper").fadeOut("slow");
       $(' html, body').css({overflow: 'auto'});
-    }, 2800);
+    }, 1600);
 });
 
 $(window).scroll(function() {
