@@ -1,11 +1,11 @@
 var btn = $('#backTop');
 
 $(window).on("load",function(){
-    $('html, body').animate({scrollTop:0}, '10');
     setTimeout(function() {
-      $(".loader-wrapper").fadeOut("slow");
+      $('.loader-wrapper').css({display: 'none'});
+      // $(".loader-wrapper").fadeOut("slow");
       $('html, body').css({overflow: 'auto'});
-    }, 1600);
+    }, 2400);
 });
 
 $(window).scroll(function() {
