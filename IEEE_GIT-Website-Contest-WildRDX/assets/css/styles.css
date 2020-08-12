@@ -158,6 +158,7 @@ transform: rotate(-20deg);
 
 main {
   font-family: 'Roboto', sans-serif;
+  color: #333333;
 }
 
 .jumbotron-billboard {
@@ -348,6 +349,14 @@ main {
 
   .card-link {
     color: white;
+  }
+
+  .card-link:hover {
+    color: #FFF222;
+  }
+
+  .card-body .card-link {
+    color: #192A56;
   }
 
   .footer-color{
