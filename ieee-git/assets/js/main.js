@@ -2,10 +2,10 @@ var btn = $('#backTop');
 
 $(window).on("load",function(){
     setTimeout(function() {
-      $('.loader-wrapper').css({display: 'none'});
-      // $(".loader-wrapper").fadeOut("slow");
+      // $('.loader-wrapper').css({display: 'none'});
+      $(".loader-wrapper").fadeOut("slow");
       $('html, body').css({overflow: 'auto'});
-    }, 2400);
+    }, 1600);
 });
 
 $(window).scroll(function() {
