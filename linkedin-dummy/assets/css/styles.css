@@ -156,6 +156,7 @@ a:hover .news-date {
 
 .ad-banner {
   background-color: #53E0BC;
+  display: block!important;
 }
 
 /*FOOTER*/
