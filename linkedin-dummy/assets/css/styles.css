@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.content-section {
+  background-color: white;
+}
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+.sidebar-item {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 76px;
+    padding: 0 15px;
+}
+
+body {
+  background: #fff;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+article {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 25px 0 600px;
+}
+
+
+.title-section, .content-section, .sidebar-section {
+  background: #fff;
+}
+
+.title-section {
+  text-align: center;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.sidebar-item h3 {
+  text-align: center;
+  background: gold;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+  border-top: solid 1px #fff;
+  border-width: thick;
+  border-color: blue;
+}
+
+.nav-link:hover i {
+  color: #007bff!important;
+}
+
+.card-img-profile {
+  width:32%;
+  margin:auto;
+  border:solid 2px #fff;
+
+}
+
+.blue-banner {
+  background: -webkit-linear-gradient(top, #007bff 15%, white 15%);
+  background: -moz-linear-gradient(top, #007bff 15%, white 15%);
+  background: -ms-linear-gradient(top, #007bff 15%, white 15%);
+  background: linear-gradient(top, #007bff 15%, white 15%);
+}
+
+.card-body ul {
+  list-style-type: '';
+  padding: 0;
+  margin: 0;
+}
+
+.card-body ul a {
+  color: gray;
+}
+
+.card-body ul a:hover {
+  color: #007bff;
+}
+
+#news h6 {
+  font-size: 14px;
+}
+
+#news li:hover {
+  background-color: #EAF0F1;
+}
+
+a:hover .news-date {
+  text-decoration: none;
+  display:inline-block;
+  width:100%;
+}
+
+#more {
+  display: none;
+}
+
+#show-less {
+  display: none;
+}
+
+.ad-banner {
+  background-color: #53E0BC;
+}
+
+/*FOOTER*/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:10px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+.copyright-footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .recent-sidebar {
+    display: none;
+  }
+  .news-sidebar {
+    margin-top: 16px;
+  }
+  footer {
+    display: none;
+  }
+  .copyright-footer {
+    display: block;
+  }
+  .feed-post-header {
+    text-align: center;
+  }
+  .card-img-feed {
+    width:44%!important;
+  }
+}
+
+.post {
+  margin:auto;
+  font-size: 1.5rem;
+}
+
+.post:hover {
+  background-color: #EAF0F1;
+}
+
+/* Floating form */
+.has-float-label {
+    position: relative;
+    font-size: 70%;
+}
+
+.has-float-label label {
+    position: absolute;
+    opacity: 1;
+    transition: all .2s;
+    top: -.5em;
+    left: .75rem;
+    z-index: 3;
+    line-height: 1;
+    padding: 0 1px;
+    color: blue;
+}
+
+.has-float-label label::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    top: 50%;
+    left: -.2em;
+    right: -.2em;
+    z-index: -1;
+}
+
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+    opacity: 0
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)+label {
+    font-size: 150%;
+    opacity: .5;
+    top: .3em
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255,255,255,0);
+  border-bottom: solid 2px blue;
+}
+
+/* File media upload */
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    font-size: 1.25rem;
+    display: inline;
+    cursor: pointer;
+    color: #EA7773!important;
+}
+
+#file-upload-filename {
+  color: green!important;
+  font-size: 0.8rem!important;
+}
+
+.card-img-feed {
+  width:88%;
+  margin:auto;
+  border:solid 1px gray;
+}
+
+.feed-post-header {
+  line-height:100%;
+  margin-left:-15px;
+}
+
+.feed-post-body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.feed-post-links {
+  margin-top: -20px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.feed-post-links li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.feed-post-links li:hover a {
+  text-decoration: none;
+}
+
+.add-comment {
+  margin-top: -40px;
+  border-radius: 20px;
+}

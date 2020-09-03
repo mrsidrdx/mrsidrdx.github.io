@@ -1,9 +1,21 @@
 var btn = $('#backTop');
+var new_id = '';
+
+$(document).ready(function(){
+  $('.nav-link').click(function() {
+      var id = $(this).attr('id');
+      console.log(id);
+      window.sessionStorage.setItem("new_id", "#" + id);
+  });
+});
 
 $(window).on("load",function(){
     setTimeout(function() {
       // $('.loader-wrapper').css({display: 'none'});
       $(".loader-wrapper").fadeOut("slow");
+      new_id = window.sessionStorage.getItem("new_id");
+      console.log(new_id);
+      $(new_id).css({color: '#f00'});
       $('html, body').css({overflow: 'auto'});
     }, 1600);
 });
