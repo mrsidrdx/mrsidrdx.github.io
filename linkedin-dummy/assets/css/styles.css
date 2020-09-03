@@ -154,13 +154,13 @@ a:hover .news-date {
   display: none;
 }
 
-.ad-banner {
+.advert {
   background-color: #53E0BC;
   min-height: 164px;
   display: flex;
 }
 
-.ad-banner h4 {
+.advert h4 {
   margin: auto;
 }
 
