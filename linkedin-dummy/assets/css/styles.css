@@ -308,6 +308,11 @@ ul.social-network li {
   }
 }
 
+@media only screen and (max-width: 362px) {
+  .small-search {
+    display: none!important;
+  }
+}
 .post {
   margin:auto;
   font-size: 1.5rem;
