@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Inquiry Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css" integrity="sha512-/Ae8qSd9X8ajHk6Zty0m8yfnKJPlelk42HTJjOHDWs1Tjr41RfsSkceZ/8yyJGLkxALGMIYd5L2oGemy/x1PLg==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="">
+      <div class="covid-message text-center">
+        Attention! Please click here for a special message about Transcend Services response to the corona virus.
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" alt="logo" loading="lazy">
+          </a>
+          <button class="navbar-toggler" style="background:#006FDA;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="inquiry.html">Inquiry Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <a role="button" class="callUsButton" href="#">CALL US TODAY</a>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <section class="aboutus">
+          <h1 class="text-center text-primary">INQUIRY FORM</h1>
+          <hr>
+          <form method="post" action="" enctype="multipart/form-data">
+            <h2 class="text-primary">Appointment</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="id_name">Date of Appointment</label>
+                  <input type="date" class="form-control" name="date_of_appointment" id="id_date_of_appointment" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group bootstrap-timepicker timepicker">
+                    <label for="timepicker1">Appointment Time</label>
+                    <input id="timepicker1" type="text" name="appointment_time" class="form-control input-small" required>
+                    <!-- <span class="input-group-addon"><i class="fa fa-clock-o"></i></span> -->
+                </div>
+              </div>
+            </div>
+            <hr>
+            <h2 class="text-primary">Type of Appointment</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="interpretation_type" id="id_interpretation" value="interpretation">
+                  <label class="form-check-label" for="inlineCheckbox1">Interpretation</label>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="transport_type" id="id_transport" value="transport">
+                  <label class="form-check-label" for="inlineCheckbox1">Transport</label>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_other_type">Other</label>
+                  <input type="text" class="form-control" name="other_type" id="id_other_type">
+                </div>
+              </div>
+            </div>
+            <hr>
+            <h2 class="text-primary">Main Contact</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_name">Name</label>
+                  <input type="text" class="form-control" name="name" id="id_name" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_email">Email Address</label>
+                  <input type="email" class="form-control" name="email" id="id_email" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_phone_no">Phone</label>
+                  <input type="tel" class="form-control" name="phone_no" id="id_phone_no" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_fax">Fax</label>
+                  <input type="tel" class="form-control" name="fax" id="id_fax" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_insurance_company">Insurance Company</label>
+                  <input type="text" class="form-control" name="insurance_company" id="id_insurance_company" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_approval">Approval</label>
+                  <input type="tel" class="form-control" name="approval" id="id_approval" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="id_comments">Comments</label>
+              <textarea class="form-control" id="id_comments" name="comments" rows="6" required></textarea>
+            </div>
+            <hr>
+            <h2 class="text-primary">Patient Information</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_patient_name">Name</label>
+                  <input type="text" class="form-control" name="patient_name" id="id_patient_name" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_address_one">Address 1</label>
+                  <input type="text" class="form-control" name="address_one" id="id_address_one" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_address_two">Address 2</label>
+                  <input type="text" class="form-control" name="address_one" id="id_address_two" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_city">City</label>
+                  <input type="text" class="form-control" name="city" id="id_city" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_state">State</label>
+                  <input type="text" class="form-control" name="state" id="id_state" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_zipcode">Zipcode</label>
+                  <input type="text" class="form-control" name="zipcode" id="id_zipcode" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_dob">Date of Birth</label>
+                  <input type="date" class="form-control" name="dob" id="id_dob" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_sex">Sex</label>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sex" id="id_male" value="male">
+                    <label class="form-check-label" for="id_male">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sex" id="id_female" value="female">
+                    <label class="form-check-label" for="id_female">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_ssn">SS(Last 4 Digit)</label>
+                  <input type="text" maxlength="4" class="form-control" name="ssn" id="id_ssn" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="id_date_of_injury">Date of Injury</label>
+                  <input type="date" class="form-control" name="date_of_injury" id="id_date_of_injury" required>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="id_employer_name">Employer Name</label>
+                  <input type="text" class="form-control" name="employer_name" id="id_employer_name" required>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="id_employer_phone_no">Employer Phone</label>
+                  <input type="tel" class="form-control" name="employer_phone_no" id="id_employer_phone_no" required>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="id_preferred_language">Preferred Language</label>
+                  <input type="text" class="form-control" name="preferred_language" id="id_preferred_language" required>
+                </div>
+              </div>
+            </div>
+            <h4 class="text-center text-success">Claim Type</h4>
+            <div class="row">
+              <div class="col-md-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="workers_comp" id="id_workers_comp" value="workers_comp">
+                  <label class="form-check-label" for="inlineCheckbox1">Workers Comp</label>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="auto_accident" id="id_auto_accident" value="auto_accident">
+                  <label class="form-check-label" for="inlineCheckbox1">Auto Accident</label>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="home_injury" id="id_home_injury" value="home_injury">
+                  <label class="form-check-label" for="inlineCheckbox1">Home Injury</label>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="liability" id="id_liability" value="liability">
+                  <label class="form-check-label" for="inlineCheckbox1">Liability</label>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="group_health" id="id_group_health" value="group_health">
+                  <label class="form-check-label" for="inlineCheckbox1">Group Health</label>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="form-group">
+                  <label for="id_patient_other_type">Other</label>
+                  <input type="text" class="form-control" name="patient_other_type" id="id_patient_other_type">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="id_patient_comments">Comments</label>
+              <textarea class="form-control" id="id_patient_comments" name="patient_comments" rows="6" required></textarea>
+            </div>
+            <hr>
+            <h2 class="text-primary">Adjuster/Case Manager Info</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_cm_name">CM Name</label>
+                  <input type="text" class="form-control" name="cm_name" id="id_cm_name" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_cm_company">CM Company</label>
+                  <input type="text" class="form-control" name="cm_company" id="id_cm_company" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_cm_phone_no">CM Phone</label>
+                  <input type="tel" class="form-control" name="cm_phone_no" id="id_cm_phone_no" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_cm_fax">CM Fax</label>
+                  <input type="tel" class="form-control" name="cm_fax" id="id_cm_fax" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_cm_email">CM Email Address</label>
+                  <input type="email" class="form-control" name="cm_email" id="id_cm_email" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="id_claim_number">Claim Number</label>
+                  <input type="text" class="form-control" name="id_claim_number" id="id_claim_number" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="id_cm_comments">Comments</label>
+              <textarea class="form-control" id="id_cm_comments" name="cm_comments" rows="6" required></textarea>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+          </form>
+        </section>
+        <div class="footer-logo text-center mt-3">
+          <img src="assets/img/logo.png" alt="logo" loading="lazy">
+        </div>
+      </div>
+      <footer class="footer mt-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inquiry.html">Inquiry Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              © 2021 ITC Comp Care. all rights reserved.
+            </span>
+          </div>
+        </nav>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js" integrity="sha512-2xXe2z/uA+2SyT/sTSt9Uq4jDKsT0lV4evd3eoE/oxKih8DSAsOF6LUb+ncafMJPAimWAXdu9W+yMXGrCVOzQA==" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#testimonial-slider').owlCarousel({
+                items:1,
+                itemsDesktop:[1000,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination: false,
+                navigation:true,
+                navigationText:["",""],
+                slideSpeed:1000,
+                autoPlay:true
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $('#timepicker1').timepicker();
+    </script>
+  </body>
+</html>
